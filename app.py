@@ -14,7 +14,7 @@ def random_face():
     để frontend (html2canvas / html2pdf) dùng được mà không bị CORS.
     """
     try:
-        # Gọi thẳng root, không dùng /image nữa
+        # Gọi thẳng root
         r = requests.get(
             "https://thispersondoesnotexist.com",
             timeout=10,
